@@ -1,0 +1,32 @@
+{
+  "name": "gonzo-country-lookup",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://gogonzogo.github.io/Gonzo-Country-Lookup",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Gonzo-Country-Lookup/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gogonzogo.github.io/Gonzo-Country-Lookup.git"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "mapbox-gl": "^2.13.0",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
